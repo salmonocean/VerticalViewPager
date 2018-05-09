@@ -341,4 +341,15 @@ public abstract class PagerAdapter {
     public float getPageWidth(int position) {
         return 1.f;
     }
+
+    /**
+     * Returns the proportional height of a given page as a percentage of the
+     * ViewPager's measured height from (0.f-1.f]
+     *
+     * @param position The position of the page requested
+     * @return Proportional height for the given page position
+     */
+    public float getPageHeight(int position) {
+        return 1.f;
+    }
 }
